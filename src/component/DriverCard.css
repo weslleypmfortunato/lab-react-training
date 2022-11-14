@@ -1,0 +1,35 @@
+.DriverCardStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 10px 5px;
+}
+
+.DriverCardStyle img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.info_driver {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.info_driver p {
+  font-size: .75rem;
+  font-weight: 600;
+  margin-top: -1px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: -1px;
+}
+
+
+
+
+

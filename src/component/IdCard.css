@@ -1,0 +1,23 @@
+.IdCard {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 5px;
+  width: 605px;
+}
+
+.IdCard img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+.profile_info {
+  margin-top: 20px;
+}
+
+.profile_info p {
+  text-align: left;
+  margin-top: -13px;
+  font-size: .75rem;
+}
