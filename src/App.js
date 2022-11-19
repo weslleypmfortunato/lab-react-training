@@ -6,7 +6,9 @@ import BoxColor from './component/BoxColor';
 import CreditCard from './component/CreditCard';
 import Rating from './component/Rating';
 import DriverCard from './component/DriverCard';
-
+import LikeButton from './component/LikeButton';
+import ClickablePicture from './component/ClickablePicture';
+import Dice from './component/Dice';
 
 function App() {
   return (
@@ -39,7 +41,6 @@ function App() {
         <BoxColor r={128} g={255} b={0} hex='80ff00' color="#222222"/>
 
         <CreditCard 
-          fontr={255} fontg={255} fontb={255}
           type="Visa"
           number="0123456789018845"
           expirationMonth={3}
@@ -49,7 +50,6 @@ function App() {
           bgColor="#11aa99"
           color="white"/>
         <CreditCard 
-          fontr={34} fontg={34} fontb={34}
           type="Master Card"
           number="0123456789010995"
           expirationMonth={3}
@@ -59,7 +59,6 @@ function App() {
           bgColor="#eeeeee"
           color="#222222"/>
         <CreditCard 
-          fontr={255} fontg={255} fontb={255}
           type="Visa"
           number="0123456789016984"
           expirationMonth={12}
@@ -93,6 +92,15 @@ function App() {
             licensePlate: "BE33ER"
           }}
         />
+
+        <div class="likebtn">
+          <LikeButton color="white"/>
+          <LikeButton color="white"/>
+        </div>
+
+        <ClickablePicture />
+
+        <Dice />
     </div>
   );
 }

@@ -20,7 +20,7 @@ const CreditCard = (props) => {
         </div>
         <div className="card_number">
           <span>**** **** ****</span>
-          <span>{props.number.split('').splice(12, 4)}</span>
+          <span>{props.number.split('').splice(12)}</span>
         </div>
         <div className="card_user_info">
           <div className="bottom_info">
